@@ -40,4 +40,5 @@ variable "admin_username" {
 
 variable "adminpassword" {
   type = string
+  senstivity = true
 }
