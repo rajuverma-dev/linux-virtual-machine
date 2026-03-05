@@ -38,6 +38,6 @@ variable "admin_username" {
   default = "adminuser"
 }
 
-variable "admin_password" {
+variable "adminpassword" {
   type = string
 }
