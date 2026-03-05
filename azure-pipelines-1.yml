@@ -8,7 +8,7 @@ variables:
 stages:
   - stage: "StageI"
     jobs:
-      - job: "Terraform-Init"
+      - job: "Terraforminit"
         steps:
         - task: TerraformInstaller@1
           inputs:
